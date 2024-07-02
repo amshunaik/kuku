@@ -1,47 +1,67 @@
+
 const df=[
     {
-        key:"1",
-    title:"Safe Game",
-    author:"K. Ashvin",
-    cover:"https://cdn.pixabay.com/photo/2024/02/02/22/05/audio-8549150_1280.jpg",
-    genre:"90's , happy life",
-    rating:5,
-    desc:"An audiobook (or a talking book) is a recording of a book or other work being read out loud. A reading of the complete text is described as unabridged, while readings of shorter versions are abridgements."
+      
+    title:"Think Twice",
+    author:"  Harlan Coben",
+    cover:"https://covers.audiobooks.com/images/covers/full/9781804944554.jpg",
+    genre:" Suspense , Police and Detective",
+    rating:3.5,
+    desc:"Think Twice is about family, friendship, loyalty, secrets, lies and, most of all, the chance for redemption. It also is a sleekly written murder mystery that will have you guessing right up until the end and puts you firmly in the shoes of our very plausible and likable protagonist."
 
     },
     {
-        key:"2",
-        title:"Game play ",
-        author:"Hariram pandey",
-        cover:"https://cdn.pixabay.com/photo/2023/12/30/13/09/musicians-8478099_960_720.jpg",
-        genre:"Emotional song, death, lost of someone",
+        
+        title:"Vows & Ruins Play ",
+        author:" Helen Scheuerer",
+        cover:"https://covers.audiobooks.com/images/covers/full/9781666651614.jpg",
+        genre:"Romance , Epic Fantasy ",
         rating:4,
-        desc:"Creating book descriptions that convert to sales can prove to be a struggle. It acts as an advertisement for your book. Writing for from the minor details and subplots to get a birds-eye view."
+        desc:"Against all odds, Althea Zoltaire emerged from her trials as a champion. Now, she must train even harder and prepare herself to become a true warrior of Thezmarr. But Thea's world is turned upside down as she struggles to navigate her newfound magic and uncover the secrets of her past."
     
         },
     {
-    key:"3",
-    title:"Sarfarosh part 1",
-    author:"Sheetal vasi",
-    cover:"https://cdn.pixabay.com/photo/2014/03/03/08/21/music-278795_1280.jpg",
-    genre:"Happy, enlighting",
+   
+    title:"The Idea Of You",
+    author:"Robinne Lee",
+    cover:"https://covers.audiobooks.com/images/covers/full/9781405951319.jpg",
+    genre:"Modern , Contemporary Women",
     
     rating:4.5,
-    desc:"An audiobook (or a talking book) is a recording of a book or other work being read out loud. A reading of the complete text is described as unabridged, while readings of shorter versions are abridgements."
+    desc:"It is a journey that spans continents as Solène and Hayes navigate each other's worlds: from stadium tours to international art fairs to secluded hideaways in Paris and Miami. For Solène, it is a reclaiming of self, as well as a rediscovery of happiness and love."
 
 
     },
     {
-        key:"4",
-        title:"Anna ke",
-        author:"Rahul kumar",
-        cover:"https://cdn.pixabay.com/photo/2022/06/08/05/44/grades-7249771_960_720.jpg",
-        genre:"fomo, friendship, 90's",
-        rating:3.5,
-        desc:"Most resources suggest writing from a third-person perspective, but writing in the second person works particularly well in some genres, like self-help."
+       
+        title:"It Ends With Us",
+        author:"Colleen Hoover",
+        cover:"https://i.pinimg.com/736x/ae/88/1c/ae881ce31a50e696d975d968d6ba77b9.jpg",
+        genre:"Modern , Contemporary Women",
+        rating:4.5,
+        desc:"From the #1 New York Times bestselling author of It Starts with Us and All Your Perfects, a “brave and heartbreaking novel that digs its claws into you and doesn’t let go, long after you’ve finished it” (Anna Todd, New York Times bestselling author) about a workaholic with a too-good-to-be-true romance who can’t stop thinking about her first love."
     
         },
-
+    {
+      
+        title:"Never Lie",
+        author:" Freida McFadden",
+        cover:"https://covers.audiobooks.com/images/covers/full/9781666626063.jpg",
+        genre:" Suspense , Thriller",
+        rating:4.5,
+        desc:"A newlywed couple is trapped in a remote manor during a blizzard and discovers a secret room containing audio transcripts from a missing psychiatrist's patients, revealing a terrifying chain of events leading up to her disappearance."
     
+        },
+        {
+            
+            title:"A Walk in the Park ",
+            author:" Kevin Fedarko",
+            cover:"https://covers.audiobooks.com/images/covers/full/9781797169583.jpg",
+            genre:"History culture, travel tips ",
+            rating:4,
+            desc:"Two friends, zero preparation, one dream. From the author of the beloved bestseller The Emerald Mile, a rollicking and poignant account of an epic 750-mile odyssey, on foot, through the heart of America's most magnificent national park and the grandest wilderness on earth."
+        
+            },
+      
 ]
 export default df
