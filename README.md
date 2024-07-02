@@ -32,6 +32,9 @@ Necessary installation which need to be done for windows:
     - Go to Back directory using "cd kuku/Back"
     - Then write the command " nodemon Page.js" 
     - This .js file handle backend implementation
+* Go to the Back directory , Page.js file and uncomment the code line in 83 line .
+* After writing the code in both terminal go to the page where the application open up and relaod it once to add the dataset.
+* After that comment out the code line 83 in Page.js.
     
 * Then your application will start working in your pc.
    

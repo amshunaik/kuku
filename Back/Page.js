@@ -83,7 +83,7 @@ app.get("/start", async(req,res)=>{
     //await User.create(df)              // Uncomment this code to add the dataset and reload the main page of all audiocover and again comment it.
     
     const y=await User.find();
-    console.log(y)
+   // console.log(y)
     res.send(y);
 
 })
