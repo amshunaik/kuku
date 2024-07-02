@@ -9,6 +9,21 @@ Necessary installation which need to be done are :
 * install NodeJs and NPM
 * install VSCode
 
+### Set up mongoDB atlas
+* To store the backend data
+* SignUp and signIn in MongoDB
+* Create new project "Audio"
+* then click next and create project
+* Click on build a database button
+* Select free Service Provide M0 and write the cluster name as "Audio" and click on create button
+* After this your Database will be created, click on connect and add Username and Password 
+* Have a copy of the password and the password with you. 
+* Click on "Create Database User" and then on "choose the connection method" button.
+* Add current IP Address to connect to the database.
+* After this paste create database Username and Password in Back directory .env file in MONGO_DB url.
+* Then add the AudioBook database into the Audio Project.
+
+
 
 ### Open the directory
 * Download the folder Kuku and open in vs code

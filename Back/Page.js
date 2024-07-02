@@ -30,7 +30,7 @@ app.get("/start", async(req,res)=>{
     
     // })
     const y=await User.find();
-    //console.log(y)
+    console.log(y)
     res.send(y);
 
 })
