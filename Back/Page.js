@@ -7,11 +7,12 @@
 
 const express =require("express");
 const cors =require("cors")
+require('dotenv').config();
 // const axios = require('axios'); // Import axios library
 // const nodemailer = require("nodemailer");
 
 const mongoose=require('mongoose');
-mongoose.connect("mongodb+srv://amshu8674:b9nthyY1YDqB3AqU@audio.kj9wfww.mongodb.net/?retryWrites=true&w=majority&appName=Audio")
+mongoose.connect(process.env.MONGO_DB)
 
 const app=express();
 app.use(express.json());
