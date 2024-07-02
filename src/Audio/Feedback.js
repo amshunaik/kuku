@@ -22,7 +22,7 @@ const Feedback = (props) => {
        console.log(formattedDate); // Outputs something like "July 2, 2024" (depending on your locale)
 
        //return;
-        const cmt={audio_id:props.Gid, name:name,date:formattedDate, rate:parseFloat(rate),comment:comment};
+        const cmt={audio_id:props.Gid, name:name.toUpperCase(),date:formattedDate, rate:parseFloat(rate),comment:comment};
         const prd=await fetch("http://localhost:5000/review",{
             method: 'POST',
             body: JSON.stringify(cmt),

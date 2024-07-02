@@ -29,6 +29,8 @@
 .part1{
     display: flex;
     margin-left: 58px;
+    margin-top: 44px;
+
     gap: 30px;
     display: flex;
     flex-wrap: wrap;

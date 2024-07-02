@@ -1,6 +1,9 @@
 .in1{
+    font-size: 22px;
     height: 30px;
+    font-weight: 600;
     width: 1000px;
+    color: #9d3434;
     border-radius: 10px;
     border: 1px solid black;
     text-align: center;

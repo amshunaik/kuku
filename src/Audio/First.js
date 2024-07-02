@@ -20,14 +20,7 @@ const First = () => {
         
         console.log("new one : ",rp);
     }
-    const but1=()=>{
-        
-        setfilttype("author");
-    }
-    const but2=()=>{
-        
-        setfilttype("genre");
-    }
+   
    
 
     const Datafilter1=()=>{
@@ -35,42 +28,31 @@ const First = () => {
             const r=d.author;
             const pp=r.toLowerCase();
             const pp1=val.toLowerCase()
-           // console.log(val)
-            const t=pp.includes(pp1);
-           // console.log(t)
+          
+            let t=pp.includes(pp1);
+            console.log("t", t)
+           
             return t;
         });
+        u.sort(function(a , b) {
+                return b.rate - a.rate;
+            });
+        
         setdata(u)
 
     }
-    const Datafilter2=()=>{
-        const u=orig.filter((d)=>{
-            const r=d.genre;
-            const pp=r.toLowerCase();
-            const pp1=val.toLowerCase()
-            //console.log(val)
-            const t=pp.includes(pp1);
-            //console.log(t)
-            return t;
-        });
-        setdata(u)
-
-    }
+   
  
     useEffect(()=>{
         console.log("len : ",val.length);
         if(val===""){
-            //setdata(df);
+           
             Start();
-            
-        console.log("lkkk :",data)
         }
-        else if(filttype==="author"){
-        Datafilter1();
+        else{
+            Datafilter1();
         }
-        else if(filttype==="genre"){
-            Datafilter2();
-            }
+       
         
         console.log("df : ",data)
 
@@ -84,13 +66,10 @@ const First = () => {
   return (
     <div>
         <h1 className='Main'>Audio-Books Catelogue</h1>
-        <SearchBox   val={val} setval={setval}/>
-        <div className='but1'>
-            <button  className="b1"onClick={but1}>Author</button>
-            <button  className="b1"onClick={but2}>Genre</button>
-        </div>
+        <SearchBox  val={val} setval={setval}/>
+        
         <div  className='part1'>
-            {data.length==0?<h1>Loading.....</h1>:
+            {data.length==0?<h1>No list found</h1>:
             <>{data.map((d)=>(
                 <div key={d._id} onClick={()=>Tested(d._id)} className='Book'>
                     <img src={d.cover} alt="" className='cover' />

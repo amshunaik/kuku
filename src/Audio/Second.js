@@ -24,7 +24,7 @@ const Second = () => {
   return (
     <div>
         {data==null?
-        <h1>loading.....</h1>:
+        <h1 className='load'>loading.....</h1>:
         <div>
             <div className='part2'>
                 

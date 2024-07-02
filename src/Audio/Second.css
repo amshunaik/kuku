@@ -19,6 +19,9 @@
     color: darkred;
     margin-bottom: 2px;
 }
+.load{
+    text-align: center;
+}
 .auth2{
     font-weight: 600;
     color: #ed7373;
@@ -92,7 +95,6 @@
     color: #9a5e34;
     text-indent: 3px;
     font-size: 17px;
-    text-transform: capitalize;
     height: 24px;
 }
 
