@@ -1,0 +1,103 @@
+.part2{
+    display: flex;
+    padding: 2px 113px;
+    padding-top: 20px;
+
+}
+.cover2{
+    width: 493px;
+    height: 503px;
+}
+.Book2{
+    padding-left: 32px;
+    padding-top: 30px;
+}
+
+.title2{
+    font-size: 30px;
+    font-weight: 700;
+    color: darkred;
+    margin-bottom: 2px;
+}
+.auth2{
+    font-weight: 600;
+    color: #ed7373;
+}
+.author2{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.decp2{
+    font-style: normal;
+    font-size: 25px;
+    font-size: 21px;
+    font-style: oblique;
+    margin: 0px;
+    font-weight: 700;
+}
+.decp3{
+    font-style: italic;
+    font-size: 21px;
+}
+.genre2{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #9b21a0;
+}
+.rate2{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #9b21a0;
+}
+.part3{
+    padding: 2px 113px;
+}
+.part5{
+    padding: 2px 24px;
+    margin-bottom: 56px;
+}
+.comment5{
+    text-align: center;
+}
+
+.Comment_form5{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 490px;
+    gap: 7px;
+}
+.rev1{
+    display: flex;
+    flex-direction: column;
+}
+.but2{
+    padding: 1px 7px;
+    border-radius: 5px;
+    margin-top: 14px;
+    font-size: 20px;
+    color: #c3f2df;
+    background: black;
+    margin-left: 221px;
+    width: fit-content;
+}
+.lab1{
+    font-size: 21px;
+}
+.input5{
+    color: #9a5e34;
+    text-indent: 3px;
+    font-size: 17px;
+    text-transform: capitalize;
+    height: 24px;
+}
+
+.err{
+    margin: 0px;
+    font-size: 17px;
+    color: red;
+}
