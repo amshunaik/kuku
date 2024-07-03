@@ -65,11 +65,11 @@ Necessary installation which need to be done for windows:
 * You will be redirected to connect to your database page where you can use the default username and password or change it.
 * Then click on "Create Database User" button  and "choose a connection method" button.
 * Click on "Drivers" for connection and copy the mongodb connection string and add username and password in the .env file in Back directory.
-* Again click to Database section and open the downloaded folder in VS code.
+* Again click the Database section and open the downloaded folder in VS code.
 
 
 ### Open the directory and follow below steps.
-* Download the folder Kuku and open in vs code
+* Open the folder KUKU in vs code
 * Go to the  Page.js file in Back directory and uncomment the code in 83rd line .
 * Then open 2 terminals side by side
 * In left side terminal
