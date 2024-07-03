@@ -70,6 +70,7 @@ Necessary installation which need to be done for windows:
 
 ### Open the directory and follow below steps.
 * Download the folder Kuku and open in vs code
+* Go to the  Page.js file in Back directory and uncomment the code in 83rd line .
 * Then open 2 terminals side by side
 * In left side terminal
     - Go to kuku directory using "cd kuku"
@@ -78,13 +79,10 @@ Necessary installation which need to be done for windows:
     - Go to Back directory using "cd kuku/Back"
     - Then write the command " nodemon Page.js" 
     - Page.js file handle backend implementation
-* Go to the Back directory in Page.js file and uncomment the code in 83rd line .
-* After writing the code in both terminal go to the page where the application open up and relaod it once to add the dataset.
-* After that comment out the code in 83rd line in Page.js.
-* Then your application will start working in your pc.
-* Open the folder Kuku in vs-code.
-* install React from terminal
-   - npx create-react-app my-app
-   - cd my-app
-   - npm start
+* After writing the code in both terminal press enter and it will open up the application in your PC.
+* After that reload the application once.
+* And  comment out the code in 83rd line in Page.js to stop adding dataset again and again.
+* Then  application will start working in your pc and checkout the functionalities and features added.
+
+
 
